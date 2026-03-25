@@ -88,7 +88,7 @@ export default function AddPolicyModal({ onAdd, onClose }: Props) {
             <input className="field-input" placeholder="Best Insurance Agency" value={form.agencyName ?? ''} onChange={(e) => set('agencyName', e.target.value)} />
           </div>
           <div className="field-row full">
-            <label className="field-label">Paragon Sales Exec</label>
+            <label className="field-label">PolicyPulse Exec</label>
             <input className="field-input" placeholder="Kussie, Tim" value={form.paragonSalesExec ?? ''} onChange={(e) => set('paragonSalesExec', e.target.value)} />
           </div>
         </div>

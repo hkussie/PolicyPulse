@@ -139,7 +139,7 @@ export default function PolicyDashboard() {
     ]
     const headers = [
       'Group Name', 'Group DBA', 'Policy Status', 'Policy Number', 'Carrier',
-      'Renewal Date', 'Lives', 'Agent Name', 'Agency Name', 'Paragon Sales Exec',
+      'Renewal Date', 'Lives', 'Agent Name', 'Agency Name', 'PolicyPulse Exec',
     ]
     const rows = [
       headers.join(','),
@@ -165,7 +165,7 @@ export default function PolicyDashboard() {
       <header>
         <div className="header-title">
           <h1>Active Policies</h1>
-          <p>Paragon Sales · {today}</p>
+          <p>PolicyPulse · {today}</p>
         </div>
         <div className="header-actions">
           <button className="btn btn-secondary" onClick={() => setShowImport(true)}>↑ Import</button>

@@ -130,7 +130,7 @@ export default function DetailPane({ policy, onSave, onDelete }: Props) {
             <input className="field-input" value={form.agencyName ?? ''} onChange={(e) => set('agencyName', e.target.value)} />
           </div>
           <div className="field-row">
-            <label className="field-label">Paragon Sales Exec</label>
+            <label className="field-label">PolicyPulse Exec</label>
             <input className="field-input" value={form.paragonSalesExec ?? ''} onChange={(e) => set('paragonSalesExec', e.target.value)} />
           </div>
         </div>

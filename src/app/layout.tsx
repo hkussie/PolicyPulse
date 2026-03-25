@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Active Policies — Paragon Sales',
+  title: 'Active Policies — PolicyPulse',
   description: 'Policy management dashboard',
 }
 

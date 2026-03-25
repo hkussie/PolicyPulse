@@ -39,7 +39,7 @@ export default function ImportModal({ onImport, onClose }: Props) {
           Upload an Excel (.xlsx) or CSV file. The file should include columns matching:{' '}
           <span style={{ color: 'var(--text)' }}>
             Group Name, Group DBA, Policy Status, Policy Number, Carrier, Renewal Date, Lives,
-            Agent Name, Agency Name, Paragon Sales Exec
+            Agent Name, Agency Name, PolicyPulse Exec
           </span>
           . New records will be appended to the existing data.
         </p>
