@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# env files — never commit these
+.env
+.env.local
+.env*.local
+
+# prisma generated client
+node_modules/.prisma/
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*

@@ -1,0 +1,26 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Policy {
+  id               Int       @id @default(autoincrement())
+  groupName        String?   @db.VarChar(256)
+  groupDba         String?   @db.VarChar(256)
+  policyStatus     String?   @db.VarChar(256)
+  policyNumber     Int?
+  carrier          String?   @db.VarChar(256)
+  renewalDate      DateTime? @db.Date
+  lives            Int?
+  agentName        String?   @db.VarChar(256)
+  agencyName       String?   @db.VarChar(256)
+  paragonSalesExec String?   @db.VarChar(256)
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+
+  @@map("policies")
+}

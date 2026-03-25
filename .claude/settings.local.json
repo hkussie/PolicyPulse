@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(/Users/hkussie/Desktop/policies-app/.gitignore:*)",
+      "Bash(gh auth:*)"
+    ]
+  }
+}
